@@ -5,11 +5,27 @@ body {
 
 h1 {
   font-size: 70px;
-  color: white;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.white {
+  color: white;
 }
 
 li {
   font-size: 18px;
-  color: white;
 }
