@@ -6,8 +6,7 @@ body {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  background-image: url("../images/the-flatiron-building.png");
-}
+  }
 
 h2 {
   font-size: 32px;
@@ -23,14 +22,27 @@ p {
   font-size: 14px;
 }
 
+li {
+  font-size: 18px;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
 .clrwhite {
   color: white;
 }
 
-li {
-  font-size: 18px;
+.hort {
+  display: inline;
 }
 
 #cpywrite {
-  text-align:left;
+  background-color: dimgray;
+  text-align: left;
+}
+
+.back_picture {
+  background-image: url("../images/the-flatiron-building.png");
 }
